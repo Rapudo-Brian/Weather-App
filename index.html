@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="video/pexels-photo.jpeg">
+</head>
+<body>
+    <video id="bg-video" autoplay muted loop></video>
+
+    <div class="container">
+        <form id="search-form">
+            <input type="text" id="search-input" placeholder="Enter city name...">
+            <button type="submit">Search</button>
+        </form>
+
+        <div class="Main-weather">
+            <h1 id="city-name">City</h1>
+            <h2 id="temp">0°C</h2>
+            <p id="temp-range">0-0°C</p>
+            <p id="description">Description</p>
+            <p id="updated-time">Time</p>
+        </div>
+
+        <div class="forcast-section">
+            <h3>Hourly Forecast</h3>
+            <div id="hourly-forecast" class="forecast-grid"></div>
+            <h3>Daily Forecast</h3>
+            <div id="daily-forecast" class="forecast-grid"></div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
