@@ -7,19 +7,21 @@ This is a simple weather application that allows users to search for weather inf
 📂Project Structure.
 
 Weather-App/
-├── public/
-│   ├── index.html         # Main HTML file
-│   ├── script.js          # JavaScript for weather data and DOM manipulation
-│   └── styles.css         # CSS for styling the app
-├── .env                   # API key stored here
-├── .gitignore             # Ensure the .env file is ignored by git
-├── README.md              # Project documentation
-└── video/                 # Folder for background videos
-    ├── cloudy.mp4.mp4
-    ├── rainy.mp4.mp4
-    ├── clear.mp4.mp4
-    ├── snow.mp4
-    └── pond-japanese.jpg
+C:.
+│   .env
+│   .gitignore
+│   index.html
+│   README.md
+│   script.js
+│   styles.css
+│
+└───video
+        clear.mp4.mp4
+        cloudy.mp4.mp4
+        pexels-photo.jpeg
+        pond-japanese.jpg
+        rainy.mp4.mp4
+        snow.mp4
 
 
 🛠️ Installation
